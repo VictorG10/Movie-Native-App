@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.vg10.MovieNativeApp"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "200c044a-cc86-481b-98bf-df7c903e2b86"
+      }
+    },
+    "owner": "vg10"
   }
 }
